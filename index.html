@@ -25,17 +25,16 @@ full_posts: 3
   <h2>博客公告</h2>
   <div class='sidebar'>
     <div class="sidebar-item">
-      <div id="cse" style="width: 100%;">Loading Google Search</div>
-      <script src="https://www.google.com/jsapi" type="text/javascript"></script>
-      <script type="text/javascript"> 
-        google.load('search', '1', {language : 'zh-CN', style : google.loader.themes.V2_DEFAULT});
-        google.setOnLoadCallback(function() {
-          var customSearchOptions = {};  var customSearchControl = new google.search.CustomSearchControl(
-            '008448290842185643507:htbcp2-now4', customSearchOptions);
-          customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
-          customSearchControl.draw('cse');
-        }, true);
-      </script>
+	<script>
+  		(function() {
+   			 var cx = '003480914310221961963:rlzq1ookmue';
+    			 var gcse = document.createElement('script'); gcse.type = 'text/javascript'; gcse.async = true;
+    					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+       					 '//www.google.com/cse/cse.js?cx=' + cx;
+   			 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
+  		})();
+	</script>
+	<gcse:search></gcse:search>
       <ul style="margin-top: -3px">
         <li>QQ：204374633</li>
       </ul>
