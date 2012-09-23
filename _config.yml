@@ -1,4 +1,5 @@
 url: http://www.zhengyangyang.cn
+permalink: /:categories/:title.html
 
 markdown: rdiscount
 pygments: true
