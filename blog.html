@@ -45,7 +45,8 @@ full_posts: 5
 	</script> -->
 	<!-- JiaThis Button END -->
 
-	<a href='{{post.url}}#comments' title='分享文章、查看评论' style="margin-left: 1em;">Comments</a>
+	<a href='{{post.url}}#comments' title='分享文章、查看评论' style="margin-left: 1em;">Comments<span class="ds-thread-count"
+				 data-thread-key="{{ page.category }}{{ page.title }}"></span></a>
     	<h1><a href='{{post.url}}'>{{post.title}}</a></h1>
     	<div class='body'>{{post.content}}</div>
     </div>
