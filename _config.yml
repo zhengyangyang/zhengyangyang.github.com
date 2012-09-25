@@ -1,5 +1,10 @@
-url: http://www.zhengyangyang.cn
 permalink: /:categories/:title.html
 
 markdown: rdiscount
 pygments: true
+
+
+
+name: 蓝正阳
+email: yonzeo@qq.com
+host: http://www.zhengyangyang.cn
